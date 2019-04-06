@@ -1,0 +1,11 @@
+Repo https://github.com/bml104/azure-templates/blob/master/azuredeploy_base.json
+New-AzResourceGroup -Name testgroup01 -Location eastus 
+New-AzResourceGroupDeployment -ResourceGroupName testgroup01 -TemplateUri https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/101-vm-simple-windows/azuredeploy.json
+New-AzResourceGroupDeployment -ResourceGroupName testgroup01 -TemplateUri https://raw.githubusercontent.com/bml104/azure-templates/master/azuredeploy_test1.json
+
+
+
+
+
+
+
